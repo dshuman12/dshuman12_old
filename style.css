@@ -1,0 +1,24 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+    
+        body, html {
+        height: 100%;
+        color: #777;
+        line-height: 1.8;
+        }
+        .bgimg-1 {
+            background-image: url("./public/images/img_seattle.jpg");
+            min-height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .w3-wide {letter-spacing: 10px;}
+    .w3-hover-opacity {cursor: pointer;}
+    
+        @media only screen and (max-device-width: 1600px) {
+            .bgimg-1, .bgimg-2, .bgimg-3 {
+                background-attachment: scroll;
+                min-height: 400px;
+            }
+        }
